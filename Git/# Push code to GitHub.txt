@@ -1,0 +1,15 @@
+# Steps to Push code to GitHub 
+# Create a new Repo in ur GitHub page
+# Navigate to the local directory where the 'source-code/documets/folders' is & run the below commands. In GitBash or Terminal on Mac.
+
+git init
+
+git add .
+
+git status     # Use git status in your bash to view all the files which are going to be staged to the first commit.
+
+git commit -m 'your message'
+
+git remote add origin 'your_url_name'
+
+git push -u origin master     # Push the code in your local repository to GitHub
